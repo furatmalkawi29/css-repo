@@ -5,6 +5,14 @@ import ReqDropdown from "./ReqDropdown";
 import { Icon } from "@iconify/react";
 import heartbeat from "@iconify-icons/uil/heartbeat";
 
+//categories icons 
+import Study from "@iconify-icons/uil/graduation-cap";
+import Gaming from "@iconify-icons/uil/laptop";
+import Sports from "@iconify-icons/uil/football-ball";
+import Traveling from "@iconify-icons/uil/plane";
+import Cooking from "@iconify-icons/uil/utensils";
+
+
 
 
 export default function RequestCard() {
