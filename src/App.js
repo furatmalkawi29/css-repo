@@ -1,10 +1,12 @@
 import './App.css';
-import Landing from './Landing'
+import Profile from './profile'
+import LandingPage from './landingPage'
 
 function App() {
   return (
-    <div className="App">
-     <Landing/>
+    <div>
+    <Profile/>
+    {/* <LandingPage/> */}
     </div>
   );
 }
