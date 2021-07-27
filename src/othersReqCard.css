@@ -2,7 +2,7 @@
 .user-part{
   display: grid;
   grid-template-rows: 57% 37% ;
-  background-color: turquoise;
+  background-color: rgb(114, 231, 220);
   margin:1.3em ;
   height: 7.7em;
   margin-left:3.9em;

@@ -10,7 +10,7 @@ export default function TopBanner() {
   return (
     <div className="topBanner-div">
 
-      <div className="banner-heading">Home <span>|</span> Requests Search</div>
+      <div className="banner-heading"> <span>|</span> Requests Search</div>
           <img alt="bg" src={logo} className="logo logo2"/>
       <div className="container-cloud1">
           <img alt="bg" src={cloud} className="clouds1"/>
