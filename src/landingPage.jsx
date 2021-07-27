@@ -1,3 +1,4 @@
+import React, {useEffect} from "react";
 import "./landingPage.css";
 import NavLanding from "./navLanding";
 import Slideshow from "./slideshow"; 
@@ -13,9 +14,10 @@ import logo from  "./assets/logo2.png"
 
 export default function LandingPage() {
 
-   
   return (
-    <div>
+    <div className="landing-body">
+     <style>{'body { background-color: #d3baf5; }'}</style>
+
       <NavLanding />
       <Slideshow/>
 

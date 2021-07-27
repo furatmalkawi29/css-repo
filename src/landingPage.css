@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-body {
-  background-color: #d3baf5;
+
+.banner-heading{
+  
 }
 
 .logo{
@@ -8,6 +9,11 @@ body {
   top:1.8em;
   left:4em;
   width:10%;
+}
+
+.logo2 {
+  width:7.5em;
+  opacity: .85;
 }
 
 div.react-slideshow-container button{

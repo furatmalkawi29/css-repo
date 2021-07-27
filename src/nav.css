@@ -7,7 +7,8 @@
   background-color: #ade0e9;
   box-shadow: -11px 8px 20px -13px rgba(0,0,0,0.30);
   background-repeat: round;
-  border-radius: 7px 0 0 7px;  
+  border-radius: 7px 0 0 7px;
+  z-index: 10;
 }
 
 ul, li {

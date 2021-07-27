@@ -6,8 +6,8 @@ import SearchPage from './searchPage'
 function App() {
   return (
     <div>
-    <Profile/>
-    {/* <SearchPage/> */}
+    {/* <Profile/> */}
+    <SearchPage/>
     {/* <LandingPage/> */}
     </div>
   );
