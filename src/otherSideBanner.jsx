@@ -5,7 +5,7 @@ import heartbeat from "@iconify-icons/uil/heartbeat";
 import Button from "@material-ui/core/Button";
 import { makeStyles } from "@material-ui/core/styles";
 import AddIcon from "@material-ui/icons/Add";
-
+import person from "./assets/person1.png";
 const useStyles = makeStyles((theme) => ({
   button: {
     textShadow: "2px 1px 3px rgba(24, 24, 24, 0.39)",
@@ -14,9 +14,9 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: "rgba(90, 214, 224,.7)",
     position:"absolute",
     bottom:"1em",
-    left:"15em",
+    left:"18em",
     padding:".55em .1em",
-    marginTop:"1em",
+    marginTop:".5em",
     zIndex:"4",
     fontSize:".8em"
   },
@@ -29,7 +29,17 @@ export default function OtherSideBanner() {
 
   return (
     <div>
+ 
       <div className="side-banner2">
+      <div className="user-stuff">
+          <img className="my-user-image" src={person} alt="user" />
+          <div className="my-user-text">
+            <p>Alex Dariel</p>
+            <p>France, Paris</p>
+        </div>
+      </div>
+      <div className="his-req-stuff">
+
         <div className="side-data2">
           <p>Keto Diet</p>
           <div className="side-category2">
@@ -44,7 +54,7 @@ export default function OtherSideBanner() {
           alt="ladder"
           className="side-req-image2"
           src="https://i.stack.imgur.com/y9DpT.jpg"
-        />
+          />
         <div className="side-desc2">
           <p>
             Looking for a partner in my diet journey. Am planning to follow the
@@ -56,9 +66,10 @@ export default function OtherSideBanner() {
               variant="contained"
               className={`${classes.button} + newbtn`}
               startIcon={<AddIcon />}
-            >
+              >
               Submit
             </Button>
+              </div>
       </div>
 
       <div className="side-number2">
@@ -66,11 +77,7 @@ export default function OtherSideBanner() {
         <p className="submitters-p2">Submits</p>
       </div>
       <div className="side-circle5"></div>
-
-      {/* <div className="side-circle3 side-circle4 "></div> */}
-      {/* <div className="side-circle3"></div> */}
-      {/* <img className="ladder2" alt="ladder" src={leaf} />
-      <img className="leafs3" alt="ladder" src={leaf2} /> */}
+      
     </div>
   );
 }

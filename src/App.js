@@ -4,6 +4,7 @@ import LandingPage from './landingPage'
 import SearchPage from './searchPage'
 import ReqDetailsPage from './reqDetailsPage'
 import OthersProfile from './othersProfile';
+import UserProfile from './userProfile';
 function App() {
   return (
     <div>
@@ -12,6 +13,7 @@ function App() {
     {/* <LandingPage/> */}
     {/* <ReqDetailsPage/> */}
     <OthersProfile/>
+    {/* <UserProfile/> */}
     </div>
   );
 }
